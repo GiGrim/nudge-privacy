@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nudge Privacy Policy</title>
+<meta name="description" content="Privacy policy for Nudge: AI Life Coach, an Android app.">
+<style>
+  :root { --bg: #f7f5ef; --text: #1e2421; --soft: #5e6a64; --accent: #2f6b4f; --card: #ffffff; --line: #e2ddd2; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #161917; --text: #ece9e2; --soft: #a5aea8; --accent: #7cc49b; --card: #1f2320; --line: #313631; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 18px 80px; }
+  h1 { font: 700 32px/1.2 Georgia, "Times New Roman", serif; margin: 0 0 6px; }
+  h2 { font-size: 20px; margin: 36px 0 8px; color: var(--accent); }
+  h3 { font-size: 16px; margin: 20px 0 4px; }
+  .meta { color: var(--soft); margin: 0 0 24px; }
+  .box { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 9px 8px; border-bottom: 1px solid var(--line); }
+  th { color: var(--soft); font-weight: 600; }
+  .scroll { overflow-x: auto; }
+  a { color: var(--accent); }
+  ul { padding-left: 22px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Nudge Privacy Policy</h1>
+<p class="meta">App: Nudge: AI Life Coach (Android, package tech.android.nudgeailifecoach)<br>
+Effective date: October 23, 2026 · Contact: <a href="mailto:gigrim@nudgeapp.tech">gigrim@nudgeapp.tech</a></p>
+
+<div class="box">
+<strong>The short version</strong>
+<ul>
+  <li>Nudge has no accounts and no servers of its own. Everything you enter is stored on your phone.</li>
+  <li>When you chat, your messages and a summary of what you track are sent to the AI service <em>you</em> choose (Google Gemini, Anthropic Claude or OpenAI), using your own API key, so your character can reply.</li>
+  <li>The app blocker can see which app you open, but not what's on your screen. That stays on your phone.</li>
+  <li>No ads, no analytics, no tracking. Your data is never sold.</li>
+</ul>
+</div>
+
+<h2>1. Who we are</h2>
+<p>Nudge is an independent app made by one developer ("we", "us"). Nudge lets you create a character who texts you, helps you track habits, and blocks distracting apps. Questions about this policy go to <a href="mailto:gigrim@nudgeapp.tech">gigrim@nudgeapp.tech</a>.</p>
+
+<h2>2. Information stored on your device</h2>
+<p>Nudge stores the following only in the app's private storage on your phone. We (the developer) never receive it:</p>
+<ul>
+  <li><strong>Your character:</strong> name, personality, age, sass and swearing settings, the name they call you, and any profile or widget photos you pick.</li>
+  <li><strong>Chat:</strong> your messages, the character's replies, and facts the character saves about you ("memories").</li>
+  <li><strong>What you log:</strong> goals, reminders, drinks and water, food and calories, workouts, treadmill sessions, body weight, study time, assignments, grades, spending and budget, and Pomodoro sessions.</li>
+  <li><strong>App blocking settings:</strong> the apps you choose to block, focus sessions, schedules, daily limits, and an override code (stored only as a scrambled hash, never as the code itself).</li>
+  <li><strong>Settings:</strong> colors, backgrounds, check-in hours, and the API keys you enter for Gemini, Claude or OpenAI.</li>
+</ul>
+
+<h2>3. Device permissions and what they're used for</h2>
+<div class="scroll"><table>
+<tr><th>Permission</th><th>What Nudge uses it for</th><th>Leaves your phone?</th></tr>
+<tr><td>Accessibility service (app blocker)</td><td>Detects which app you open (its name, e.g. "Instagram") so Nudge can show its lock screen for apps you chose to block. It is configured so it <strong>cannot</strong> read screen content, messages, passwords or anything you type or view. You must agree to an in-app disclosure before turning it on.</td><td>No, with one exception you control: if you tap "Talk to [character]" on the lock screen, the blocked app's name is included in your chat and sent to your chosen AI service.</td></tr>
+<tr><td>Usage access (screen time)</td><td>Reads how long you spent in each app today, to show screen time, enforce daily limits, and let your character comment on it.</td><td>Per-app screen time totals are included in the summary sent to your chosen AI service.</td></tr>
+<tr><td>Physical activity (step counter)</td><td>Reads your phone's step counter to show daily steps.</td><td>Your step count is included in the summary sent to your chosen AI service.</td></tr>
+<tr><td>Calendar (read only)</td><td>Shows your schedule on the Today tab and widgets.</td><td>Titles and times of today's events are included in the summary sent to your chosen AI service.</td></tr>
+<tr><td>Photos (picker)</td><td>Only the pictures you pick for your character or backgrounds.</td><td>No.</td></tr>
+<tr><td>Notifications, alarms, start at boot</td><td>Reminders, hourly check-ins, assignment alerts, Pomodoro and focus timers.</td><td>No.</td></tr>
+<tr><td>Internet</td><td>Talking to the AI service you choose and opening links you tap.</td><td>See section 4.</td></tr>
+</table></div>
+<p>Every permission is optional. Nudge still works without them; the related feature is just turned off.</p>
+
+<h2>4. Information shared with AI services you choose</h2>
+<p>Nudge's character is powered by an AI service that <strong>you</strong> pick in the app and connect with <strong>your own API key</strong>: Google Gemini (Google LLC), Claude (Anthropic PBC) or OpenAI (OpenAI, L.L.C.). When you send a chat message, or when Nudge writes a widget line, hourly check-in or calorie estimate, it sends that service:</p>
+<ul>
+  <li>your recent chat messages;</li>
+  <li>your character's name, personality and settings, and the name it calls you;</li>
+  <li>saved memories about you;</li>
+  <li>a summary of what you track: goals, reminders, drinks and water, food and calories, workouts, treadmill, body weight, steps, screen time per app, spending and budget, study time, assignments and grades, Pomodoro status, block schedules, and today's calendar events;</li>
+  <li>when you tap "Talk to [character]" on the lock screen, the name of the blocked app.</li>
+</ul>
+<p>This is sent directly from your phone to that service over an encrypted (HTTPS) connection. It never passes through us. How the service handles it is governed by its own policies:
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://ai.google.dev/gemini-api/terms">Gemini API terms</a> (note: Google may use content sent with free-tier keys to improve its products),
+<a href="https://www.anthropic.com/legal/privacy">Anthropic Privacy Policy</a>,
+<a href="https://openai.com/policies/privacy-policy/">OpenAI Privacy Policy</a>.
+If you don't add an API key, nothing is sent to any AI service.</p>
+
+<h2>5. What we do not do</h2>
+<ul>
+  <li>We do not run servers that receive your data, and we have no access to your chats or logs.</li>
+  <li>We do not use analytics, advertising, or tracking SDKs.</li>
+  <li>We do not sell your data or share it for advertising.</li>
+  <li>We do not use your data for anything other than running the app features you use.</li>
+</ul>
+
+<h2>6. Donations and emails</h2>
+<p>The Donate tab opens <a href="https://buymeacoffee.com/nudgeapp">Buy Me a Coffee</a> in your browser. Any payment is handled by Buy Me a Coffee under its own privacy policy; Nudge does not see your payment details. If you email us (for example to report a bug), we receive your email address and whatever you include, and use it only to reply and fix problems.</p>
+
+<h2>7. Safety features</h2>
+<p>Nudge checks AI replies on your phone for harmful content (such as encouragement of self-harm) and, if a message you send sounds like a crisis, shows crisis resources (988 Suicide &amp; Crisis Lifeline in the US). These checks run on your device; nothing is reported to us or anyone else. Nudge's AI is not a medical, mental health or other professional.</p>
+
+<h2 id="delete-data">8. Keeping and deleting your data (how to delete your data)</h2>
+<ul>
+  <li>Your data stays on your phone until you delete it. You can delete individual entries in the app, clear the chat (Me → Clear chat), and delete memories (Me → What your character knows).</li>
+  <li>Uninstalling Nudge, or Settings → Apps → Nudge → Storage → Clear storage, deletes everything Nudge stored on your phone.</li>
+  <li>Questions or a deletion request? Email <a href="mailto:gigrim@nudgeapp.tech?subject=Nudge%20data%20deletion">gigrim@nudgeapp.tech</a>. Because we don't keep copies of your Nudge data, there's nothing stored by us to delete, but we'll reply within 30 days and help with any data in emails you sent us.</li>
+  <li>Data already sent to an AI service is kept according to that service's policy (linked in section 4). You can manage or delete it through your account with that service.</li>
+</ul>
+
+<h2>9. Security</h2>
+<p>Your data is kept in Nudge's private app storage, which other apps can't read under Android's app sandbox. Connections to AI services use HTTPS. No method is perfectly secure, so protect your phone with a screen lock and keep your API keys private.</p>
+
+<h2>10. Children</h2>
+<p>Nudge is not directed to children under 13, and we do not knowingly collect information from children. Characters in Nudge must be adults (18+). If you believe a child has used Nudge, contact us and we'll help remove any information.</p>
+
+<h2>11. Your rights</h2>
+<p>Because your data is stored on your device and we don't hold copies, you can view, change and delete it directly in the app at any time. Depending on where you live (for example under GDPR or US state privacy laws), you may have additional rights; contact us and we'll help however we can.</p>
+
+<h2>12. Changes to this policy</h2>
+<p>If this policy changes, we'll update this page and the effective date above. Significant changes will also be noted in the app's release notes.</p>
+
+<h2>13. Contact</h2>
+<p>Email <a href="mailto:gigrim@nudgeapp.tech">gigrim@nudgeapp.tech</a>.</p>
+</main>
+</body>
+</html>
